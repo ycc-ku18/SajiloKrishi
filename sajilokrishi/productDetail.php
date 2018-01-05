@@ -24,7 +24,7 @@
 		<div class = "firstDiv">
 			<ul>
 				<li>
-					<h2 class = "title">Agriculture Nepal</h2>
+					<h2 class = "title">Sajilo Krishi</h2>
 				</li>
 				<li>
 					<input type="text">
