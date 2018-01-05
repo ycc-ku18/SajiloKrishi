@@ -1,0 +1,362 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:#eceff1;
+	font-family: 'Comfortaa', cursive;
+	box-sizing: border-box;
+
+}
+* {
+	box-sizing: border-box;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+ul li {
+	list-style: none;
+}
+
+ul li a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.firstDiv {
+	width: 100%;
+	height: 70px;
+	background-color:#81C784;
+	position: fixed;
+	/*position: relative;*/
+}
+
+.firstDiv ul {
+	display: table;	
+	width: 100%;
+}
+
+.firstDiv ul li {
+	display: table-cell;
+	padding:18px;
+	color:#fff;
+	cursor: pointer;
+	font-size:16px;	
+}
+
+.firstDiv .title {
+	/*position: absolute;*/
+	margin:0;
+	padding:0;
+	color:#fff;
+	top:15px;
+	left:25px;
+}
+
+.firstDiv input {
+	position: relative;
+	width : 500px;
+	height: 30px;
+	border-radius: 5px 0px 0px 5px;
+	border:none;
+	padding:10px;
+}
+
+.firstDiv input[type='submit'] {
+	position:absolute;
+	height: 30px;
+	background-color:black;
+	border:none;
+	border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+	padding:10px;
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+	width: auto;
+
+}
+
+.secondDiv {
+	background-color: red;
+}
+
+.secondDiv .leftDiv {
+	width : 25%;
+	float: left;
+	/*background-color: yellow;*/
+	/*display: none;*/
+	height: 800px;
+	top: 70px;
+	position: fixed;
+
+}
+.secondDiv .leftDiv h3 {
+	text-align: center;
+}
+.secondDiv .leftDiv .leftDiv1 {
+	background-color: #fff;
+	width:70%;
+	display: block;
+	margin:20px auto;
+	border-radius: 5px;
+
+}
+.secondDiv .leftDiv .leftDiv1 ul {
+
+	display: block;
+}
+
+.secondDiv .leftDiv .leftDiv1 ul li{
+	margin: 0px;
+	text-align: center;
+	height: 40px;
+	border-bottom: 1px solid lightgrey;
+}
+.secondDiv .leftDiv .leftDiv1 ul li a{
+	/*background-color: red;*/
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding:10px;
+	font-size:14px;
+}
+.secondDiv .leftDiv .leftDiv1 ul li a img{
+	margin:0;
+	padding:0;
+	display:block;
+}
+
+.secondDiv .leftDiv .leftDiv1 ul li a:hover{
+	box-shadow: 1px 1px 1px 1px grey;
+	transition:.2s;
+	border-radius:3px;
+	color:#02b875;
+}
+
+
+.secondDiv .rightDiv {
+	width : 75%;
+	float: right;
+	height: 800px;
+	margin-top:90px;
+	border-radius: 3px;
+
+}
+
+.secondDiv .rightDiv .rightDiv1 {
+	background-color: #fff;
+	width: 75%;
+	height: auto;
+	padding: 10px;
+	border-radius:3px;
+	float:left;
+}
+
+.secondDiv .rightDiv .rightDiv2 {
+	float:left;
+	background-color:#fff;
+	height: auto;
+	width:22%;
+	margin:0px 10px;
+	border-radius:3px;
+	padding:15px;
+
+}
+
+.secondDiv .rightDiv2 label {
+	font-size: 13px;
+}
+.secondDiv .rightDiv2 input[type="text"]{
+	height:35px;
+	display: block;
+	margin:10px auto;
+	border-radius: 3px;
+	border:1px solid grey;
+	padding:5px;
+}
+.secondDiv .rightDiv .rightDiv2 h3{
+	text-align: center;
+	margin:5px 0;
+	padding:0;
+	font-size:15px;
+	
+}
+
+.secondDiv .rightDiv .rightDiv2 h4{
+	color:#02b875;
+	font-size: 15px;
+	text-align: center;
+	margin:10px 0px;
+}
+.secondDiv .rightDiv .rightDiv2 h6{
+	color:blue;
+	font-size:14px;
+	text-align: center;
+	margin:10px 0px;
+}
+
+.secondDiv .rightDiv .rightDiv2 h5{
+	color:red;
+	font-size:15px;
+	text-align: center;
+}
+
+.secondDiv .rightDiv .rightDiv2 input[type="submit"]{
+	height:35px;
+	width:90%;
+	display: block;
+	margin:15px auto;
+	color:#fff;
+	background-color: #81C784;
+	border:none;
+	cursor: pointer;
+	padding:10px;
+}
+
+.secondDiv .rightDiv .rightDiv2 input[type="submit"]:hover{
+	background-color: #02b875;
+	transition:.3s;
+	
+}
+.secondDiv .rightDiv .rightDiv1 h3{
+	font-size:17px;
+	text-align: center;
+}
+
+.secondDiv .rightDiv .rightDiv1 ul {
+	display: table;
+	width:100%;
+	/*background-color: red;*/
+	display: block;
+
+}
+.secondDiv .rightDiv .rightDiv1 ul li {
+	display: table-cell;
+	/*background-color: red;*/
+	text-align:center;
+	width:25%;
+	padding:20px;
+	border-radius:5px;
+	transition:.3s;
+	font-size:14px;
+	cursor:pointer;
+
+
+	
+}
+
+.secondDiv .rightDiv ul li:hover {
+	box-shadow: 1px 1px 5px 1px grey;
+	
+
+}
+
+
+.secondDiv .rightDiv ul li img{
+	height: 110px;
+	width: 110px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px 1px black; 
+}
+
+.signupBoxHeading {
+	position: relative;
+	background-color: #02b875;
+	display: block;
+	margin:0px 0px 20px 0px;
+	height:40px;
+}
+
+.signupBoxHeading ul {
+	display: table;
+	width:100%;
+}
+
+.signupBoxHeading ul img{
+	position: absolute;
+	right:5px;
+	top:8px;
+	padding:0px;
+	cursor: pointer;
+
+}
+.signupBoxHeading ul li{
+	display: table-cell;
+	height:40px;
+	padding:10px;
+	background-color: #02b875;
+	color:#fff;
+}
+
+.signupBox {
+	position: fixed;
+	width : 250px;
+	height :auto;
+	background-color: #fff;
+	border-radius: 5px;
+	z-index: 2;
+	margin:20px 550px;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.signupBox input {
+	width : 80%;
+	height: 30px;
+	border:1px solid lightgrey;
+	margin:5px 0px;
+	padding:10px;
+	color:grey;
+}
+
+.signupBox select {
+	height:30px;
+	width: 80%;
+	margin:5px 0;
+}
+
+.signupBox .submitButton {
+	height: 35px;
+	width : 80%;
+	margin:20px auto;
+	display: block;
+	border:none;
+	background-color: #81C784;
+	color:#fff;
+	cursor: pointer;
+
+}
+
+.signupBox .submitButton:hover{
+	background-color: #02b875;
+}
+.fakeWrapper {
+	position: fixed;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+
+.signup {
+	display: none;
+}
+
+.signup p {
+	margin:0;
+	padding:0;
+	font-size: 8px;
+}
+
+.login {
+	display: none;
+}
+
+.error_design{
+	color: red;
+	text-align:center;
+	font-weight: bold; 
+	margin: 10px;
+}

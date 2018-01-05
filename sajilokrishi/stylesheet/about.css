@@ -1,0 +1,175 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+}
+
+.mainWrapper{
+	width: 100%;
+	height: 100vh;
+	/*background-color: red;*/
+}
+
+.mainWrapper h1{
+	margin: 0;
+	padding: 2px;
+	text-align: center;
+	color: #028b75;
+}
+
+.content{
+	margin: 0;
+	padding: 0;
+	height: 30vh;
+	width: 100%;
+	background-color: #eceff1;
+	
+}
+
+.content p{
+	font-size: 18px;
+	margin: 0;
+	padding: 10px;
+}
+
+.contact{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 55vh;
+	background-color: #eceff1;
+}
+
+.contact .developers{
+	
+	margin-top: 5px;
+	padding: 0;
+	float: left;
+	display: block;
+	margin-left: 90px; 
+		
+}
+
+.contact .developers img{
+	margin: 0;
+	height: 200px;
+	width: 200px;
+	border-radius: 50px;
+
+}
+.text{
+	margin: 0;
+	padding: 0;
+	height: 12vh;
+	width: 100%;
+}
+.text a{
+	text-decoration: none;
+}
+.text ul li{
+	list-style: none;
+	color: black;
+
+}
+.footer{
+	position: fixed;
+	height: 50px;
+	padding-top: 5px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	
+}
+
+.footer .visit{
+	margin: 0;
+	float: left;
+	width: 70%;
+	height: 100px;	
+		
+}
+
+.div1{
+	margin: 0;
+	margin-left:30px; 
+	padding: 0;
+	width: 20%
+	height: 100px;
+	float: left;
+}
+
+.div1 p{
+	
+	margin: 0;
+	padding: 0;
+}
+
+.div2{
+	margin: 0;
+	padding: 0;
+	width: 80%;
+	height: 100px;
+	/*background-color: pink;*/
+	float: right;
+}
+
+.div2 h3, h4{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.footer .social {
+	height: 100px;
+	width: 30%;
+	/*background-color: orange;*/
+	float: right;
+
+}
+
+.social .div3{
+	
+	margin: 0;
+	width: 40%;
+	height: 100%;
+	float: left;
+	/*background-color: green;*/
+}
+
+.div3 p{
+	margin: 0;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 10px;
+	
+}
+
+.social .div4{
+	margin: 0;
+	width: 60%;
+	height: 100%;
+	float: right;
+	/*background-color: blue;*/
+	
+}
+
+.div4 ul{
+	margin: 0;
+	list-style: none;
+	
+}
+
+.div4 ul li{
+	float: left;
+	display: block;
+	margin-right: 5px;
+}
+
+.div4 img{
+	height: 40px;
+	width: 40px;
+}
+
+
+
+

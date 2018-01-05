@@ -1,0 +1,54 @@
+
+.rightDiv1 input {
+	height:35px;
+	width:40%;
+	padding:10px;
+	border-radius:3px;
+	border:1px solid grey;
+	margin:5px 0px;
+}
+
+.rightDiv1 .quantityField {
+	width:30%;
+}
+
+.rightDiv1 .unitField {
+	width:10%;
+}
+.rightDiv1 input[type="file"] {
+	border:none;
+}
+
+.rightDiv1 textarea {
+	width: 40%;
+	resize:none;
+}
+
+.rightDiv1 select {
+	width: 40%;
+	height:35px;
+	margin:5px 0;
+
+}
+.rightDiv1 input[type="submit"] {
+	background-color: #02b875;
+	color:#fff;
+	border:none;
+}
+
+.rightDiv1 input[type="submit"]:hover {
+	box-shadow:1px 1px 1px 1px grey;
+	cursor: pointer;
+}
+
+
+.firstDiv h3 {
+	padding:0;
+	color:#fff;
+	font-size:14px;
+
+}
+
+.rightDiv2 {
+	display: none;
+}

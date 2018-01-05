@@ -1,0 +1,42 @@
+.view_article{
+	border: 1px solid #f1f1f1;
+    padding-top: 10px;
+}
+
+.view_article_image{
+	width: 97%;
+    margin: 0px auto;
+    position: relative;
+    display: none;
+    
+}
+
+.view_article_content{
+	padding: 10px;
+}
+
+.view_article_content_title{
+	left: -10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #444;
+}
+
+.view_article_content_author{
+	    font-size: 18px;
+    color: #444;
+}
+
+.view_article_content_post{
+	padding: 10px 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #555;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.view_article_content_time{
+	color: #666;
+    font-size: 14px;
+}

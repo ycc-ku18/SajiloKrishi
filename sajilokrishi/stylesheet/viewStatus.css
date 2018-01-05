@@ -1,0 +1,39 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:#eceff1;
+	font-family: 'Comfortaa', cursive;
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: border-box;
+}
+header {
+	background-color: #81c784;
+	font-size:25px;
+	color:#fff;
+	padding:10px;
+	text-align: center;
+}
+
+h2 {
+
+	display: none;
+}
+
+.div1 {
+	margin:180px auto;
+	background-color: #fff;
+	width: 50%;
+	border-radius:3px;
+	display: block;
+	padding:20px;
+	box-shadow: 1px 1px 3px 1px black;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+

@@ -1,0 +1,55 @@
+body {
+	background-color: #eceff1;
+	font-family: 'Comfortaa', cursive;
+}
+
+body h1 {
+	color:#02b875;
+	text-align: center;
+
+}
+
+table{
+	width:100%;
+}
+
+table tr th {
+	font-size:15px;
+	padding:5px;
+	border-radius: 3px;
+}
+
+ th {
+	border:1px solid lightgrey;
+}
+table{
+	background-color: #fff;
+	margin-top:50px;
+}
+
+table input[type="submit"] {
+	border:none;
+	color:#fff;
+	padding:5px;
+	border-radius: 2px;
+	cursor:pointer;
+	width:50px;
+	background-color: grey;
+}
+
+.Add:hover {
+	background-color: #81c784;
+	transition:.3s;
+}
+
+
+
+.Delete:hover {
+	background-color:red;
+	transition:.3s;
+}
+
+table th a {
+	color:inherit;
+	text-decoration: none;
+}
